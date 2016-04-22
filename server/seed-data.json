@@ -1,0 +1,17 @@
+[
+  {
+    "user": { "name": "Newton", "avatar": "", "handle": "@SirIsaac" },
+    "content": { "text": "If I have seen further it is by standing on the shoulders of giants", "images": [] },
+    "created_at": 1461116232227
+  },
+  {
+    "user": { "name": "Descartes", "avatar": "", "handle": "@rd" },
+    "content": { "text": "Je pense , donc je suis", "images": [] },
+    "created_at": 1461113959088
+  },
+  {
+    "user": { "name": "Johann von Goethe", "avatar": "", "handle": "@johann49" },
+    "content": { "text": "Es ist nichts schrecklicher als eine tätige Unwissenheit.", "images": [] },
+    "created_at": 1461113796368
+  }
+]
