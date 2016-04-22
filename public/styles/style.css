@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav-bar {
+  height: 100px;
+}
+
+#nav-bar ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+div.new-tweet {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #fdd;
+  padding: 10px;  
+}
+textarea {
+  padding: 5px;
+  resize: none;
+  border: 1px solid #f77;
+}
+
+form input, button {
+  font-size: 1.5em;
+}
+
+.new-tweet-cta {
+  color: #777;
+  padding: 5px;
+}
+
+span.header {
+  line-height:  100px;
+  margin-left:  10px;
+  font-size:    2em;
+}
+
+img.logo {
+  height: 100px;
+  width:  100px;
+  vertical-align: middle;
+}
+
+/* 
+ * Tweet-related styling 
+*/
+#tweets-container {
+  border: 1px solid #ccc;
+  
+}
+
+.tweet {
+  height:   100px;
+  display:  block;
+  padding:  10px;
+  border:   1px solid #ccc;
+  margin:   10px;  
+}
+
+.user-avatar {
+  float: left;
+}
+
+.tweet-body {
+  padding-left: 105px;
+}
+
+.tweet-header {
+  margin: 5px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.tweet-text {
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.light-text {
+  color: #777;
+}
+
+
+/*
+ * Overlay stuff
+ */
+ 
+.opaque-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  height: 400px;
+  min-width: 600px;
+  max-width: 800px;
+  max-height: calc(100% - 100px);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 2em;
+  margin: 0;
+  line-height: 20px;
+}

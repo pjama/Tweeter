@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="..."> 
+  <head>
+    <title>Tweeter - The Web's Noisiest Newsfeed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/style.css" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <img class="logo" src="/images/bird.png">
+      <span class="header">Tweeter</span>
+      <ul>
+      </ul>
+    </div>
+    <div class="container">
+      
+      <div class="new-tweet">
+        <form class="new-tweet">
+          <div class="new-tweet-cta"><span><i></i></span></div>
+          <textarea class="new-tweet-text"name="tweet_text" rows="2" cols="60" placeholder="What are you humming about?"></textarea>
+          <button id="btn-new-tweet" type="submit">Tweet</input>
+        </form>
+      </div>
+      <div id="tweets-container">
+        
+      </div>
+      
+      <div class="opaque-overlay">
+        <div class="modal centered">
+          <div class="avatar">
+          </div>
+          <div class="user-name"></div>
+          <div class="user-handle"></div>
+          <div><span class="close-button">&times;</span></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
