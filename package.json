@@ -1,7 +1,8 @@
 {
   "name": "tweeter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chrip! LHL client-side web project.",
+  "repository": "git@github.com:pjama/Tweeter.git",
   "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
